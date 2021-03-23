@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -15,7 +18,7 @@
 
 </head>
 <body>
-    <div class="scroll-up-btn">
+    <div class="scroll-up-btn" >
         <i class="fas fa-angle-up"></i>
     </div>
     <nav class="navbar">
@@ -44,7 +47,7 @@
                 <div class="text-1">Bonjour je m'appelle</div>
                 <div class="text-2">Carvajol Lory</div>
                 <div class="text-3">Et je suis <span class="typing"></span></div>
-                <a href="#">Recrutez moi</a>
+                <a href="#" id="gemBtn">Recrutez moi</a>
             </div>
           </div>
       </div>
@@ -54,7 +57,7 @@
         </script>
         <script src="http://ekladata.com/anWiitTC4dg8SbPUXtuLYnmNK8s/pluie.js" type="text/javascript"></script>
     <!--section à propos -->
-    <section class="about" id="about">
+    <section class="about "  id="about">
         <div class="max-width">
             <h2 class="title">A propos de moi</h2>
             <div class="about-content">
@@ -64,11 +67,11 @@
                 <div class="column right">
                     <div class="text">Je m'appelle Carvajol Lory et je suis <span class="typing-2"></span></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
-                    <a href="#">téléchargement CV</a>
+                    <a href="#" id="gemBtn">téléchargement CV</a>
                 </div>
             </div>
         </div>
-        
+        <script src="https://unpkg.com/scrollreveal"></script>
         
         
     </section>
@@ -83,6 +86,7 @@
                         
                         <div class="text">Projet présentation département</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <a href="#"class="cardBtn" id="gemBtn">Visiter</a>
                     </div>
                 </div>
                 <div class="card">
@@ -90,12 +94,34 @@
                         
                         <div class="text">Projet site de location de gîte</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <a href="#" class="cardBtn" id="gemBtn">Visiter</a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         
                         <div class="text">Work in progress</div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        
+                        <div class="text">Comming soon ?</div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        
+                        <div class="text">Comming soon ?</div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        
+                        <div class="text">Comming soon ?</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
                     </div>
                 </div>
@@ -112,7 +138,7 @@
                 <div class="column left">
                     <div class="text">Mes capacités et compétences</div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
-                    <a href="#">En savoir plus</a>
+                    <a href="#" id="gemBtn">En savoir plus</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -211,21 +237,21 @@
                         <div class="row">
                             <i class="fas fa-user"></i>
                             <div class="info">
-                                <div class="head">Nom</div>
+                                <div class="head">Nom: </div>
                                 <div class="sub-title">Carvajol lory</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
-                                <div class="head">Adresse</div>
+                                <div class="head">Adresse: </div>
                                 <div class="sub-title">Aix-les-Bains, France</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-envelope"></i>
                             <div class="info">
-                                <div class="head">Email</div>
+                                <div class="head">Email: </div>
                                 <div class="sub-title">lorycarvajol1@gmail.com</div>
                             </div>
                         </div>
@@ -233,23 +259,36 @@
                 </div>
                 <div class="column right">
                     <div class="text">contacter moi</div>
-                    <form class="contact-form" action="#" method="POST">
+                    <?php
+                        if (array_key_exists('errors',$_SESSION)): ?>
+                        <div class="alert alert_danger">
+                            <?= implode('br', $_SESSION['errors']); ?>
+                        </div>
+                        <?php   endif; ?> 
+                       <?php if (array_key_exists('succes',$_SESSION)): ?>
+                        <div class="alert alert_succes">
+                        Votre mail a bien été envoyé                        
+                        </div>
+                        <?php   endif; ?> 
+                          
+                    <form class="contact-form" action="post_contact.php
+                    " method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" class="fullname" placeholder="Nom">
+                                <input type="text" class="fullname" name="name" id="inputname" placeholder="Nom" value="<?= isset($_SESSION['inputs']['name']) ? $_SESSION['inputs']['name'] : '' ; ?>">
                             </div>
                             <div class="field email">
-                                <input type="text" class="email-input" placeholder="Email">
+                                <input type="text" class="email-input" name="email" id="inputemail" placeholder="Email"value="<?= isset($_SESSION['inputs']['email']) ? $_SESSION['inputs']['email'] : '' ; ?>">
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" class="subject" placeholder="Sujet">
+                            <input type="text" class="subject" name="subjet" id="inputsubjet" placeholder="Sujet"value="<?= isset($_SESSION['inputs']['subjet']) ? $_SESSION['inputs']['subjet'] : '' ; ?>">
                         </div>
                         <div class="field textarea">
-                            <textarea class="message" cols="30" rows="10" placeholder="Message.."></textarea>
+                            <textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Message.."><?= isset($_SESSION['inputs']['message']) ? $_SESSION['inputs']['message'] : '' ; ?></textarea>
                         </div>
                         <div class="button-area">
-                            <button class="send-msg" type="submit" name="send">Envoyer message</button>
+                            <button class="send-msg" type="submit" name="send" id="gemBtn">Envoyer message</button>
                         </div>
                     </form>
                 </div>
@@ -265,3 +304,8 @@
     <script src="script.js"></script>
 </body>
 </html>
+<?php
+unset($_SESSION['inputs']);
+unset($_SESSION['errors']);
+unset($_SESSION['succes']);
+?>

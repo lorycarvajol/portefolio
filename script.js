@@ -15,15 +15,11 @@ $(document).ready(function(){
         }
     
     });
-    //sroll fadein
-    $(window).scroll(function(){
-        // sticky navbar en scroll 
-        if(this.scrollY > 500){
-            $('.about').addClass("visible");
-        }else{
-            $('.about').removeClass("visible");
-        }
-    });
+    //sroll fade about
+        ScrollReveal().reveal('.about', { delay: 150 , duration: 3000});
+        
+    //scroll fade projet
+        ScrollReveal().reveal('.services', { delay: 150 , duration: 3000,interval: 4000});
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
