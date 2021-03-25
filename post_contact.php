@@ -22,6 +22,6 @@ if(!empty($errors)){
     $_SESSION['succes'] = 1;
 $message = $_POST['message'];
 $headers = 'FROM: site@local.dev';
-mail('l.carvajol@codeur.online','formulaire de contact',$message,$headers);
+mail('lorycarvajolwebdev@gmail.com','formulaire de contact',$message,$headers);
 header('location: index.php');
 }

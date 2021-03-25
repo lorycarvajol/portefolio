@@ -19,21 +19,20 @@
 </head>
 <body>
     <div class="scroll-up-btn" >
-        <i class="fas fa-angle-up"></i>
+        <em class="fas fa-angle-up"></em>
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#"><span></span></a></div>
+            <div class="logo"><a href="#"><span><img src="images/{.png" alt="" width="60px" height="60px"></span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Accueil</a></li>
                 <li><a href="#about" class="menu-btn">Bio</a></li>
-                <li><a href="#services" class="menu-btn">Compétences</a></li>
-                <li><a href="#skills" class="menu-btn">Cv</a></li>
-                <li><a href="#teams" class="menu-btn">Réalisation</a></li>
+                <li><a href="#services" class="menu-btn">Réalisations</a></li>
+                <li><a href="#skills" class="menu-btn">Compétences</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
-                <i class="fas fa-bars"></i>
+                <em class="fas fa-bars"></em>
             </div>
         </div>
     </nav>
@@ -41,13 +40,13 @@
     <!-- section accueil -->
     <section class="home" id="home">
       <div class="max-width">
-          
+          <div class="cloud"></div>
           <div class="row">
             <div class="home-content">
                 <div class="text-1">Bonjour je m'appelle</div>
                 <div class="text-2">Carvajol Lory</div>
                 <div class="text-3">Et je suis <span class="typing"></span></div>
-                <a href="#" id="gemBtn">Recrutez moi</a>
+                <a href="#contact" id="gemBtn">Adoptez moi</a>
             </div>
           </div>
       </div>
@@ -67,13 +66,10 @@
                 <div class="column right">
                     <div class="text">Je m'appelle Carvajol Lory et je suis <span class="typing-2"></span></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
-                    <a href="#" id="gemBtn">téléchargement CV</a>
+                    <a href="#" id="gemBtn" download="CV">téléchargement CV</a>
                 </div>
             </div>
-        </div>
-        <script src="https://unpkg.com/scrollreveal"></script>
-        
-        
+        </div>       
     </section>
 
     <!--  section projet -->
@@ -82,52 +78,46 @@
             <h2 class="title">Mes réalisations</h2>
             <div class="serv-content">
                 <div class="card">
-                    <div class="box">
-                        
+                    <div class="box">                        
                         <div class="text">Projet présentation département</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
                         <a href="#"class="cardBtn" id="gemBtn">Visiter</a>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="box">
-                        
+                    <div class="box">                       
                         <div class="text">Projet site de location de gîte</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
                         <a href="#" class="cardBtn" id="gemBtn">Visiter</a>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="box">
-                        
+                    <div class="box">                        
                         <div class="text">Work in progress</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <p><img src="images/work.png" alt="" width="150px" height="150px"></p>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="box">
-                        
+                    <div class="box">                        
                         <div class="text">Comming soon ?</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="box">
-                        
+                    <div class="box">                        
                         <div class="text">Comming soon ?</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="box">
-                        
+                    <div class="box">                        
                         <div class="text">Comming soon ?</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
                     </div>
                 </div>
                </div>
             </div>
-        </div>
+        </div>        
     </section>
 
     <!-- section compétences start -->
@@ -181,50 +171,6 @@
         </div>
     </section>
 
-    <!-- section frame-outils start -->
-    <!--<section class="teams" id="teams">
-        <div class="max-width">
-            <h2 class="title">My teams</h2>
-            <div class="carousel owl-carousel">
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-1.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-2.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-3.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-4.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-5.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
     <!-- section contact start -->
     <section class="contact" id="contact">
         <div class="max-width">
@@ -235,24 +181,24 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
                     <div class="icons">
                         <div class="row">
-                            <i class="fas fa-user"></i>
+                            <em class="fas fa-user"></em>
                             <div class="info">
                                 <div class="head">Nom: </div>
                                 <div class="sub-title">Carvajol lory</div>
                             </div>
                         </div>
                         <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
+                            <em class="fas fa-map-marker-alt"></em>
                             <div class="info">
                                 <div class="head">Adresse: </div>
                                 <div class="sub-title">Aix-les-Bains, France</div>
                             </div>
                         </div>
                         <div class="row">
-                            <i class="fas fa-envelope"></i>
+                            <em class="fas fa-envelope"></em>
                             <div class="info">
                                 <div class="head">Email: </div>
-                                <div class="sub-title">lorycarvajol1@gmail.com</div>
+                                <div class="sub-title">lorycarvajolwebdev@gmail.com</div>
                             </div>
                         </div>
                     </div>
@@ -298,9 +244,9 @@
 
     <!-- section footer start -->
     <footer>
-        <span>Créer par Carvajol lory  </span>
+        <span>© Carvajol lory - Tous droits réservés.  </span>
     </footer>
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>
 </body>
 </html>
