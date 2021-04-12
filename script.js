@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar en scroll 
@@ -15,14 +16,7 @@ $(document).ready(function(){
         }
     
     });
-    /*//sroll fade about
-        ScrollReveal().reveal('.about', { delay: 150 , duration: 4000});
-        
-    //scroll fade projet
-        ScrollReveal().reveal('.services', { delay: 150 , duration: 4000,interval: 4000});
-    //scroll Skills
-        ScrollReveal().reveal('.skills', { delay: 150 , duration: 4000});*/
-    // slide-up script
+    
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
         // removing smooth scroll on slide-up button click
@@ -42,19 +36,20 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Tatoué", "vacciné", "propre", "affectueux", "développeur junior"],
+        strings: ["curieux", "rigoureux", "autonome", "pugnace", "développeur junior"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["sympa", "vacciné", "cultivé", "beau gosse", "développeur"],
+        strings: ["curieux", "rigoureux", "autonome", "pugnace", "développeur junior"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
-
+//flip card
+   
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
@@ -77,49 +72,8 @@ $(document).ready(function(){
         }
     });
 });
-/*slider projet*/
-const slides = document.querySelectorAll(".slide");
-const nextButton = document.getElementById("next");
-const prevButton = document.getElementById("prev");
-const auto = true;
-const intervalTime = 5000;
-let slideInterval;
 
-const nextSlide = () => {
-  const current = document.querySelector(".current");
-  current.classList.remove("current");
-  if (current.nextElementSibling) {
-    current.nextElementSibling.classList.add("current");
-  } else {
-    slides[0].classList.add("current");
-  }
-};
-
-const prevSlide = () => {
-  const current = document.querySelector(".current");
-  current.classList.remove("current");
-  if (current.previousElementSibling) {
-    current.previousElementSibling.classList.add("current");
-  } else {
-    slides[slides.length - 1].classList.add("current");
-  }
-};
-
-nextButton.addEventListener("click", () => {
-  nextSlide();
-  if (auto) {
-    clearInterval(slideInterval);
-    slideInterval = setInterval(nextSlide, intervalTime);
-  }
-});
-prevButton.addEventListener("click", () => {
-  prevSlide();
-  if (auto) {
-    clearInterval(slideInterval);
-    slideInterval = setInterval(nextSlide, intervalTime);
-  }
-});
-
-if (auto) {
-  slideInterval = setInterval(nextSlide, intervalTime);
+function swapStylesheet(sheet) {
+    document.getElementById('swap').setAttribute('href', sheet)
 }
+AOS.init();
