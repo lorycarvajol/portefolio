@@ -548,6 +548,9 @@ footer span a:hover{
         margin: 20px 0;
         font-size: 25px;
     }
+    .buttonsheet{
+        display: none;
+    }
     .home .home-content .text-2{
         font-size: 70px;
     }
@@ -602,6 +605,31 @@ footer span a:hover{
     }
 }
 @media (max-width: 500px) {
+    body{
+        background-color: rgb(43, 43, 43);
+    }
+    .home {
+        height: auto;
+        background: none;
+    }
+    .about{
+        background: none;
+    }
+    .contact{
+        background: none;
+    }
+    .skills{
+        background: none;
+    }
+    .services{
+        background: none;
+    }
+    .services h2{
+        margin-top: 0px;
+    }
+    section .title::after{
+        bottom: -28px;
+    }
     .home .home-content .text-2{
         font-size: 50px;
     }
@@ -772,6 +800,7 @@ div.blocxp p{
     font-size: 20px;
     margin: 15px 5px;
 }
+/*boutton jour-nuit*/
 .buttonsheet button{
     width: 60px;
     background: #000;

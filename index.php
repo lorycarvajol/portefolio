@@ -36,7 +36,7 @@
             </ul>
             <div class="pad1">
         
-        <div data-aos="slide-left" data-aos-offset= "70" data-aos-duration = "3000" class="buttonsheet">
+        <div data-aos="fade-in" data-aos-offset= "70" data-aos-duration = "3000" class="buttonsheet">
             <div>
                 <button onClick="swapStylesheet('style-2.css')">Lumière</button>
             </div>
@@ -200,7 +200,7 @@
         <div class="max-width">
             <h2 data-aos="fade-down" data-aos-offset= "140" data-aos-duration = "2500" class="title" id="ancre">Contacter moi</h2>
             <div class="contact-content">
-                <div data-aos="slide-right" data-aos-offset= "140" data-aos-duration = "2500" class="column left">
+                <div data-aos="fade-in" data-aos-offset= "140" data-aos-duration = "2500" class="column left">
                     <div class="text">Get in Touch</div>
                     <p>Vous cherchez à me joindre pour une proposition, une question, une simple envie de me rencontrer, n'hésiter pas . .</p>
                     <div class="icons">
@@ -227,7 +227,7 @@
                         </div>
                     </div>
                 </div>
-                <div data-aos="slide-left" data-aos-offset= "140" data-aos-duration = "2500" class="column right">
+                <div data-aos="fade-in" data-aos-offset= "140" data-aos-duration = "2500" class="column right">
                     <div class="text">contacter moi</div>
                     <?php
                         if (array_key_exists('errors',$_SESSION)): ?>
