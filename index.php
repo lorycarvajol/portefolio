@@ -99,14 +99,14 @@
                     <div class="box">                        
                         <div class="text">Projet présentation département</div>
                         <p>Projet de formation chez onlineformapro qui consiste à créer un site de présentation d'un département  en HTML/CSS.</p>
-                        <a href="projet/projet1.html" target="_blank" class="cardBtn" id="gemBtn">Visiter</a>
+                        <a href="projet/index_projet1.html" target="_blank" class="cardBtn" id="gemBtn">Visiter</a>
                     </div>
                 </div>
                 <div  data-aos="flip-up" data-aos-offset= "140" data-aos-duration = "2500"class="card">
                     <div class="box">                       
                         <div class="text">Projet site de location de gîte</div>
                         <p>Projet de formation chez onlineformapro qui consiste à créer un site de location de gite en Html , css et PHP , javascript..</p>
-                        <a href="projet2/projet2.html" target="_blank" class="cardBtn" id="gemBtn">Visiter</a>
+                        <a href="projet2/index_projet2.html" target="_blank" class="cardBtn" id="gemBtn">Visiter</a>
                     </div>
                 </div>
                 <div data-aos="flip-down" data-aos-offset= "140" data-aos-duration = "2500" class="card">
