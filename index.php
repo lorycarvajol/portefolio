@@ -82,7 +82,7 @@
                 </div>
                 <div  data-aos="fade-in" data-aos-offset= "250" data-aos-duration = "2500" class="column right">
                     <div class="text">Je m'appelle Carvajol Lory et je suis <span class="typing-2"></span></div>
-                    <p>Développeur web junior en apprentissage ,en reconversion par passion pour les nouvelles technologie et par obligation au vus de mes contraintes physique. Apres avoir passé 8 ans dans le domaine de l'industrie lourde et une période de convalescence forcée je me suis vue obligé bon gré mal gré au début  puis enthousiasme par la suite de me reconvertir. Je suis aujourd'hui renforcé par les expériences passées et déterminées à réussir mon projet professionel dans un secteur d'activité dynamique où la soif de connaissance est porteuse de reussite.  </p>
+                    <p>Développeur web junior en apprentissage ,en reconversion par passion pour les nouvelles technologie et par obligation aux vus de mes contraintes physique. Après avoir passé 8 ans dans le domaine de l'industrie lourde et une période de convalescence forcée je me suis vue obligé bon gré mal gré au début  puis enthousiasme par la suite de me reconvertir. Je suis aujourd'hui renforcé par les expériences passées et déterminées à réussir mon projet professionnel dans un secteur d'activité dynamique où la soif de connaissance est porteuse de réussite.  </p>
                     <a href="images\CV-lory-carvajol 2021.pdf" id="gemBtn" download="CV">téléchargement CV</a>
                     
                 </div>
@@ -151,7 +151,7 @@
             <div class="skills-content">
                 <div data-aos="fade-left" data-aos-offset= "200" data-aos-duration = "2500" class="column left">
                     <div class="text">Mes capacités et compétences</div>
-                    <p>L'ensemble des connaissances et capacitées accumuler dans mes diverses activités proféssionnel ,associative et expérience de la vie en générale.</p>
+                    <p>L'ensemble des connaissances et capacités accumuler dans mes diverses activités professionnelle ,associative et expérience de la vie en général.</p>
                     <a href="competence.html" target="_blank" id="gemBtn">En savoir plus</a>
                 </div>
                 <div data-aos="fade-right" data-aos-offset= "200" data-aos-duration = "2500" class="column right">
@@ -236,7 +236,7 @@
                         </div>
                         <?php   endif; ?> 
                        <?php if (array_key_exists('succes',$_SESSION)): ?>
-                        <div class="alert alert_succes">
+                        <div class="alert alert_succes" style="color: #80ffd3">
                         Votre mail a bien été envoyé                        
                         </div>
                         <?php   endif; ?> 
