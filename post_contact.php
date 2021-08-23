@@ -25,6 +25,6 @@ $message = $_POST['message'];
 $headers = 'FROM: site@local.dev';
 mail('lorycarvajolwebdev@gmail.com','formulaire de contact',$message,$headers);
 header('location: index.php#ancre');
-echo '<span style="color: green;">Votre message est envoyé.</span>';
+
 }
 
