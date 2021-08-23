@@ -69,7 +69,7 @@
     <script type="text/javascript">
         var macouleur="#50C7C7"
         </script>
-        
+        <script src="http://ekladata.com/anWiitTC4dg8SbPUXtuLYnmNK8s/pluie.js" type="text/javascript"></script>
     <!--section à propos -->
     <section class="about "  id="about">
         <div class="max-width">
@@ -77,7 +77,7 @@
             <div class="about-content">
                 <div class="card">
                 <div data-aos="fade-in" data-aos-offset= "340" data-aos-duration = "2500" class="column left">
-                    <img src="images/moi2.2.png" alt="Ma photo" height="60%">
+                    <img src="images/moi2.2.png" alt="photo de beaugosse" height="60%">
                 </div>
                 </div>
                 <div  data-aos="fade-in" data-aos-offset= "250" data-aos-duration = "2500" class="column right">
@@ -97,39 +97,37 @@
             <div  class="serv-content">
                 <div data-aos="flip-down" data-aos-offset= "140" data-aos-duration = "2500" class="card">
                     <div class="box">                        
-                        <div class="text">Projet présentation département</div>
-                        <p>Projet de formation chez onlineformapro qui consiste à créer un site de présentation d'un département  en HTML/CSS.</p>
-                        <a href="projet/index_projet1.html" target="_blank" class="cardBtn" id="gemBtn">Visiter</a>
+                        <div class="text">Blog de la promo 49</div>
+                        <p>Création du Blog de la promo avec construction de thème wordpress sans plugins admis.</p>
+                        <a href="projet5/projet5.html" target="_blank" class="cardBtn" id="gemBtn">Visiter</a>
                     </div>
                 </div>
                 <div  data-aos="flip-up" data-aos-offset= "140" data-aos-duration = "2500"class="card">
                     <div class="box">                       
-                        <div class="text">Projet site de location de gîte</div>
-<<<<<<< HEAD
-                        <p>Projet de formation chez onlineformapro qui consiste à créer un site de location de gîte en Html , css et PHP , javascript..</p>
-                        <a href="projet2/projet2.html" target="_blank" class="cardBtn" id="gemBtn">Visiter</a>
-=======
-                        <p>Projet de formation chez onlineformapro qui consiste à créer un site de location de gite en Html , css et PHP , javascript..</p>
-                        <a href="projet2/index_projet2.html" target="_blank" class="cardBtn" id="gemBtn">Visiter</a>
->>>>>>> 513747cc3a75430e11a3abb1a65fbd264a132a24
+                        <div class="text">Dashboard d'une compétition de Ski</div>
+                        <p>Elaboration d'une Application de compétition de ski dynamique en Vue.js avec fonctionnalité Excel.</p>
+                        <a href="projet4/projet4.html" target="_blank" class="cardBtn" id="gemBtn">Visiter</a>
                     </div>
                 </div>
                 <div data-aos="flip-down" data-aos-offset= "140" data-aos-duration = "2500" class="card">
                     <div class="box">                        
-                        <div class="text">Work in progress</div>
-                        <p><img src="images/work.png" alt="" width="150px" height="150px"></p>
+                        <div class="text">Site de petites annonces</div>
+                        <p>Création d'un site de petites annonces en HTML/CSS, PHP, javascript et Template Twigg.</p>
+                        <a href="projet3/projet3.html" target="_blank" class="cardBtn" id="gemBtn">Visiter</a>
                     </div>
                 </div>
                 <div data-aos="flip-down" data-aos-offset= "160" data-aos-duration = "2500" class="card">
                     <div class="box">                        
-                        <div class="text">Coming soon ?</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text">Projet site de location de gîte</div>
+                        <p>Projet de formation chez onlineformapro qui consiste à créer un site de location de gîte en Html , css et PHP , javascript..</p>
+                        <a href="projet2/projet2.html" target="_blank" class="cardBtn" id="gemBtn">Visiter</a>
                     </div>
                 </div>
                 <div data-aos="flip-down" data-aos-offset= "160" data-aos-duration = "2500" class="card">
                     <div class="box">                        
-                        <div class="text">Coming soon ?</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text">Projet présentation département</div>
+                        <p>Projet de formation chez onlineformapro qui consiste à créer un site de présentation d'un département  en HTML/CSS.</p>
+                        <a href="projet/projet1.html" target="_blank" class="cardBtn" id="gemBtn">Visiter</a>
                     </div>
                 </div>
                 <div data-aos="flip-down" data-aos-offset= "160" data-aos-duration = "2500" class="card">
@@ -163,28 +161,28 @@
                     <div class="bars">
                         <div class="info">
                             <span>HTML</span>
-                            <span>70%</span>
+                            <span>80%</span>
                         </div>
                         <div class="line html"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>CSS</span>
-                            <span>50%</span>
+                            <span>80%</span>
                         </div>
                         <div class="line css"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>JavaScript</span>
-                            <span>30%</span>
+                            <span>50%</span>
                         </div>
                         <div class="line js"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>PHP</span>
-                            <span>40%</span>
+                            <span>60%</span>
                         </div>
                         <div class="line php"></div>
                     </div>
@@ -273,8 +271,8 @@
     <!-- section footer start -->
     <footer>
         <span>© Carvajol lory - Tous droits réservés.  </span>
-        <a href="https://github.com/maclory73" target="_blank"><img src="images/github-icon-38979.png" alt="lien vers git" id="logogit"></a>
-        <a href="https://www.linkedin.com/in/lory-carvajol-71367513b/" target="_blank"><img src="images/logolinkwb.png" alt="lien vers linkedin" id="logolink"></a>
+        <a href="https://github.com/maclory73"><img src="images/github-icon-38979.png" alt="lien vers git" id="logogit"></a>
+        <a href="https://www.linkedin.com/in/lory-carvajol-71367513b/"><img src="images/logolinkwb.png" alt="lien vers linkedin" id="logolink"></a>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="vanilla-tilt.min.js"></script>
