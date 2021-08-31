@@ -132,8 +132,8 @@
                 </div>
                 <div data-aos="flip-down" data-aos-offset= "160" data-aos-duration = "2500" class="card">
                     <div class="box">                        
-                        <div class="text">Coming soon ?</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text"></div>
+                        <p></p>
                     </div>
                 </div>
                </div>

@@ -58,27 +58,27 @@ body {
 }
 
 .slide:first-child {
-  background: url("images-projets/Capture\ d’écran\ \(91\).png") no-repeat
+  background: url("images-projet3/kikinenveu1.png") no-repeat
     center top/cover;
 }
 
 .slide:nth-child(2) {
-  background: url("images-projets/Capture\ d’écran\ \(92\).png") no-repeat
+  background: url("images-projet3/kikinenveu2.png") no-repeat
     center top/cover;
 }
 
 .slide:nth-child(3) {
-  background: url("images-projets/Capture\ d’écran\ \(93\).png") no-repeat
+  background: url("images-projet3/kikinenveu3.png") no-repeat
     center top/cover;
 }
 
 .slide:nth-child(4) {
-  background: url("images-projets/Capture\ d’écran\ \(94\).png") no-repeat
+  background: url("images-projet3/kikinenveu4.png") no-repeat
     center top/cover;
 }
 
 .slide:nth-child(5) {
-  background: url("images-projets/Capture\ d’écran\ \(95\).png") no-repeat
+  background: url("images-projet3/kikinenveu5.png") no-repeat
     center top/cover;
 }
 
